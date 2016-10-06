@@ -1,0 +1,40 @@
+Source: bee-c
+Section: libs
+Priority: optional
+Maintainer: Eugine Blikh <bigbes@gmail.com>
+Build-Depends: debhelper (>= 9),
+               cdbs (>= 0.4.93~),
+               dpkg-dev (>= 1.16.1~),
+               cmake (> 2.6)
+Standards-Version: 3.9.5
+Homepage: https://github.com/wprayudo/bee-c
+Vcs-Git: git://github.com/wprayudo/bee-c.git
+Vcs-Browser: https://github.com/wprayudo/bee-c
+
+Package: libbee-c
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Multi-Arch: same
+Description: bee-c client library
+ libbee-c is a library providing client API for bee database.
+
+Package: libbee-c-dbg
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Multi-Arch: same
+Description: bee-c client library
+ libbee-c is a library providing client API for bee database.
+ .
+ This package cotains debug information.
+
+Package: libbee-c-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Multi-Arch: same
+Description: bee-c client library
+ libbee-c is a library providing client API for bee database.
+ .
+ This package cotains development files.
