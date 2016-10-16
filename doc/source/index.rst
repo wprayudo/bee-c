@@ -50,18 +50,6 @@ the ``bee-c`` library:
     $ cd doc
     $ make sphinx-html
 
-Or you can install it as a package:
-
-.. code-block:: console
-
-    #### In Fedora/RHEL/CentOS/Amazon Linux:
-    $ yum install bee-c bee-c-devel
-
-    #### In Ubuntu/Debian:
-    $ apt-get install libbee-c libbee-c-dev
-
-    #### In Mac OS X:
-    $ brew install bee-c
 
 ===========================================================
                         Contents
